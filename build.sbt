@@ -1,0 +1,6 @@
+name := "projet_sda_2024"
+version := "1.0"
+scalaVersion := "2.12.15"
+libraryDependencies += "org.apache.spark" %% "spark-sql" % "3.3.1"
+libraryDependencies += "com.beust" % "jcommander" % "1.48"
+libraryDependencies += "com.typesafe" % "config" % "1.4.1"
